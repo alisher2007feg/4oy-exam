@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="../css/home__page.css" />
+    <title>Book shelter</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="header__nav">
+          <img src="../img/main__logo.png" alt="logo" class="header__logo" />
+          <form id="header__form">
+            <input
+              id="search"
+              type="search"
+              class="header__search"
+              placeholder="Search books"
+            />
+          </form>
+          <button class="header__ligh-btn">
+            <img src="../img/light.png" alt="sun" />
+          </button>
+          <button class="header__logout">Logout</button>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="filter">
+        <div class="filter__box">
+          <div class="container filter__row">
+            <p class="filter__result">Showing 18 Result(s)</p>
+            <div class="filter__flex">
+              <img src="../img/calendar.svg" alt="icon" />
+              <button class="filter__btn">Order by newest</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="hero">
+        <div class="cantainer">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img
+                  width="1194"
+                  data-v-8f82691c=""
+                  src="../img/swiper1.jpg"
+                  alt="Акции, подборки товаров и новости Uzum"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  width="1194"
+                  data-v-8f82691c=""
+                  src="../img/swiper2.jpg"
+                  alt="Акции, подборки товаров и новости Uzum"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  width="1194"
+                  data-v-8f82691c=""
+                  src="../img/swiper3.jpg"
+                  alt="Акции, подборки товаров и новости Uzum"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  width="1194"
+                  data-v-8f82691c=""
+                  src="../img/swiper4.jpg"
+                  alt="Акции, подборки товаров и новости Uzum"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  width="1194"
+                  data-v-8f82691c=""
+                  src="../img/swiper5.jpg"
+                  alt="Акции, подборки товаров и новости Uzum"
+                />
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+      </section>
+      <div class="main-flex container">
+        <section class="aside">
+          <div class="aside__box">
+            <div class="container">
+              <div class="aside__content">
+                <h3 class="aside__title">Bookmarks</h3>
+                <p class="aside__text">
+                  If you don’t like to read, you haven’t found the right book
+                </p>
+              </div>
+              <ul class="aside__list">
+                <li class="aside__item">
+                  <div class="aside__book-inf">
+                    <p class="aside__book-name">Python</p>
+                    <p class="aside__book-author">David M. Beazley</p>
+                  </div>
+                  <button class="aside__read">
+                    <a href="#"
+                      ><img src="../img/open__book.png" alt="icon"
+                    /></a>
+                  </button>
+                  <button class="aside__delete">
+                    <a href="#"><img src="../img/delete.png" alt="icon" /></a>
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="products">
+          <div class="container">
+            <div class="products__box-out">
+              <ul class="products__list"></ul>
+              <div class="spinner" role="status">
+                <span class="hidden"></span>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    <div class="container">
+      <div id="myModal" class="modal">
+        <div class="modal-content">
+          <div class="modal__header">
+            <h2 class="modal__header-title">Python</h2>
+            <span class="close"
+              ><img src="../img/Vector.png" alt="icon" />
+            </span>
+          </div>
+          <div class="modal__inf-box">
+            <div class="modal__img">
+              <img
+                width="229"
+                height="300"
+                src="../img/book__card.png"
+                alt="book"
+              />
+            </div>
+            <div class="modal__content">
+              <p class="modal__text">
+                Culpa nulla pariatur cupidatat nisi incididunt ea do ipsum.
+                Incididunt quis mollit elit commodo cillum eiusmod reprehenderit
+                labore irure. Cillum et incididunt et nostrud exercitation quis
+                aute laboris non ut adipisicing. Laboris ad minim aute nulla
+                proident deserunt velit anim sunt aliquip ut sit. Exercitation
+                aliquip ullamco officia non aliqua. Sint deserunt aliquip veniam
+                id eiusmod sit consectetur mollit ea aliqua officia consequat.
+                Magna non mollit nisi est commodo voluptate aute id. Deserunt
+                nostrud id do in nisi mollit deserunt non. Pariatur fugiat
+                cillum irure elit sint nisi ad ipsum culpa deserunt cupidatat
+                esse consequat laboris. Id aliquip non consectetur esse proident
+                duis Lorem.
+              </p>
+              <p class="modal__author">
+                Author : <span class="blue">Jamal Kasper</span>
+              </p>
+              <p class="modal__year">
+                Published : <span class="blue">2019</span>
+              </p>
+              <p class="modal__publisher">
+                Publishers: <span class="blue">Hollman</span>
+              </p>
+              <p class="modal__category">
+                Categories: <span class="blue">Computers</span>
+              </p>
+              <p class="modal__pages">
+                Pages Count: <span class="blue">346</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <template id="template">
+        <li class="products__item">
+          <div class="products__imagebox">
+            <img
+              class="products__img"
+              src="../img/book__card.png"
+              width="200"
+              height="200"
+              alt="book"
+            />
+          </div>
+          <div class="products__box">
+            <p class="products__name">Python</p>
+            <p class="products__author">David M. Beazley</p>
+            <p class="products__year">2009</p>
+            <div class="products__btns">
+              <button class="products__bookmark">Bookmark</button>
+              <button id="myBtn" class="products__moreinfo">More Info</button>
+              <button class="products__read">Read</button>
+            </div>
+          </div>
+        </li>
+      </template>
+      <template id="errorTemplate">
+        <p class="js-errot-text text-red fw-bold fs-3"></p>
+      </template>
+    </div>
+    <script src="../js/data.js"></script>
+    <script type="module" src="../js/swipre.js"></script>
+    <script src="../js/modal.js"></script>
+    <script src="../js//main.js"></script>
+  </body>
+</html>
